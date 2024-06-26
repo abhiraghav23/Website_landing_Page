@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>GAUTAM BAKERY SINGOLA</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+    <header>
+      <div class="left-side">
+        <a href="#"><img src="https://png.pngtree.com/png-clipart/20230815/original/pngtree-logo-of-a-bakery-featuring-bread-hat-wheat-and-spices-in-circular-pattern-vector-picture-image_10827916.png" alt="" srcset=""> </a>
+      </div>
+      <div class="right-side">
+        <div class="nav-link-wrapper"> <a href="">Home</a> </div>
+        <div class="nav-link-wrapper"> <a href="">Menu</a> </div>
+        <div class="nav-link-wrapper"> <a href="">Product</a> </div>
+        <div class="nav-link-wrapper"> <a href="">Contact</a> </div>
+      </div>
+    </header>
+
+    <div class="container">
+
+      <div class="left-side">
+        <h1>GAUTAM BAKERY <br>
+          Serve <span class = "green">  BUNS  </span>
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+           sunt cumque pariatur sint dignissimos odio sit facilis porro veritatis
+           earum itaque similique voluptatem dolores est ipsum, sequi non temporibus,
+           quae.</p>
+        <a href="">Learn More</a>
+      </div>
+      <div class="right-side">
+        <img src="img/hq720.jpg" alt="" class = "starbucks">
+        <br>
+        <br>
+        <br>
+        <br>
+        <section class="whatsapp-connect">
+          <div class="whatsapp-info">
+              <h2>Connect with Us on WhatsApp</h2>
+              <p>We are here to assist you. Click the button below to chat with us on WhatsApp.</p>
+              <button id="whatsapp-btn">Chat Now</button>
+          </div>
+      </section>
+      <br>
+        <div class="box">
+          <a href="#"> <img class = "facebook" src="img/facebook.png" alt=""></a>
+          <a href="#"> <img src="img/instagram.png" alt=""></a>
+          <a href="#"> <img src="img/twitter.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-container">
+      <h2 class="g-s">Gallery</h2>
+      <br>
+      <br>
+      <div class="gallery-slide">
+          <img src="img/glogo.jpg" alt="Image 1">
+          <img src="img/logog.jpg" alt="Image 2">
+          <img src="img/homemade-slider-buns-3062253_hero-01-1dcdc448948a4b7caf7368fec7aaa20e.jpg" alt="Image 3">
+          <img src="img/warehouse.webp" alt="Image 4">
+      </div>
+      <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+      <button class="next" onclick="moveSlide(1)">&#10095;</button>
+  </div>
+  <br>
+  <br>
+    <section class="contact-section">
+      <div class="contact-info">
+          <h2 id="contact-p">Contact Us</h2>
+         
+          <form id="contact-form">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+              
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+              
+              <button type="submit">Submit</button>
+          </form>
+      </div>
+      <div id="map"></div>
+  </section>
+ 
+  <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h3>GAUTAM BAKERY</h3>
+            <p>We are a company dedicated to providing the best services in the industry.</p>
+        </div>
+        <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section contact">
+            <h3>Contact Us</h3>
+            <p>Email: contact@example.com</p>
+            <p>Phone: +123 456 7890</p>
+            <br>
+            <p>Add : Village- Ranika Singola ,122103</p>
+            <p>Sohna (Gurgaon) Haryana</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2024 Gautam Bakery | Designed by Abhishek Raghav
+    </div>
+</footer>
+    <script src = "js/script.js">
+    </script>
+  </body>
+</html>
